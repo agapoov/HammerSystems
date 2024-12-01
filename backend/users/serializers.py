@@ -4,11 +4,10 @@ from .models import AuthCode, User
 
 
 class AuthCodeSerializer(serializers.ModelSerializer):
-    phone_number = serializers.CharField(max_length=12)
 
     class Meta:
         model = AuthCode
-        fields = ('phone_number', 'code',)
+        fields = ('code',)
 
 
 class AuthSerializer(serializers.Serializer):
