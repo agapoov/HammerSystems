@@ -91,7 +91,6 @@ DATABASE_PORT=5432
 # Скрины
 
 ![Entry](backend/media/entry.png)
-![invalid_code](backend/media/verify_invalid.png)
 ![valid_code](backend/media/verify_valid.png)
 ![profile_without_referals](backend/media/profile_without_referals.png)
 ![profile_with_referals](backend/media/profile_with_referals.png)
